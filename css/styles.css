@@ -600,8 +600,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto%;
+  width: 356px;
+  height: 200px;
   overflow:hidden;
 }
 
