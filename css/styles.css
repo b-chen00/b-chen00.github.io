@@ -3152,14 +3152,14 @@ textarea.form-control-lg {
 }
 
 .btn-warning {
-  color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  color: #FFECD1;
+  background-color: #15616D;
+  border-color: #15616D;
 }
 .btn-warning:hover {
-  color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  color: #FFECD1;
+  background-color: #001524;
+  border-color: #001524;
 }
 .btn-check:focus + .btn-warning, .btn-warning:focus {
   color: #fff;
@@ -7703,6 +7703,11 @@ textarea.form-control-lg {
 .text-uppercase-white {
   text-transform: uppercase !important;
   color: #FFFFFF;
+}
+
+.text-uppercase-offwhite {
+  text-transform: uppercase !important;
+  color: #FFECD1;
 }
 
 .text-capitalize {
