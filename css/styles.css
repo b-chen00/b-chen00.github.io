@@ -565,6 +565,7 @@ progress {
 }
 
 .list-inline {
+  color: #001524;
   padding-left: 0;
   list-style: none;
 }
@@ -3031,9 +3032,9 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  color: #FFECD1;
+  background-color: #15616D;
+  border-color: #15616D;
 }
 .btn-primary:hover {
   color: #fff;
@@ -5535,7 +5536,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #FFECD1;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -7696,6 +7697,7 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  color: #78290F;
 }
 
 .text-capitalize {
@@ -11301,6 +11303,7 @@ body {
 
 p {
   line-height: 1.75;
+  color: #001524;
 }
 
 .page-section {
@@ -11487,7 +11490,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #FFB569;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
