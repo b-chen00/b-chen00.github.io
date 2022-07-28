@@ -3037,9 +3037,9 @@ textarea.form-control-lg {
   border-color: #15616D;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  color: #FFECD1;
+  background-color: #001524;
+  border-color: #15616D;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7700,6 +7700,11 @@ textarea.form-control-lg {
   color: #78290F;
 }
 
+.text-uppercase-white {
+  text-transform: uppercase !important;
+  color: #FFFFFF;
+}
+
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -11490,7 +11495,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #FFB569;
+  background-color: #78290F;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
