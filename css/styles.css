@@ -603,7 +603,8 @@ progress {
 
 .img-fluid {
   width: 100%;
-  max-height: 100%;
+  height: auto;
+  background-size: contain;
   overflow:hidden;
 }
 
@@ -11329,6 +11330,8 @@ p {
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   color: #001524;
+  margin: 0 auto;
+  max-width: 800px;
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
