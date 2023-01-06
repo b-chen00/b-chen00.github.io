@@ -79,10 +79,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/goose.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">OpenAI Generated Story Book Sharer<br></div>
+                                <div class="portfolio-caption-subheading text-muted">Python Flask, HTML, CSS, JavaScript, OpenAI API, Docker, DigitalOcean, and PyTest</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -95,9 +110,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
+                        <!-- Portfolio item 4-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -110,9 +125,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 4-->
+                        <!-- Portfolio item 5-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -125,9 +140,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 5-->
+                        <!-- Portfolio item 6-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -140,9 +155,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 6-->
+                        <!-- Portfolio item 7-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -155,9 +170,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 7-->
+                        <!-- Portfolio item 8-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -170,9 +185,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 8-->
+                        <!-- Portfolio item 9-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -185,9 +200,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 9-->
+                        <!-- Portfolio item 10-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal10">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -267,6 +282,52 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
+                                    <h2 class="text-uppercase">OpenAI Generated Story Book Sharer</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <p>
+                                      As part of my software engineering coursework, I worked as a team of 5 to learn more about the software development lifecycle and practices. We utilized standup meetings, containerization, and CI/CD to create a website that is deployed on DigitalOcean. Groupmates worked on individual branches with an automated unit testing using PyTest on each push. Using GitHub Actions, push to the protected main branch automatically pushes an image onto DockerHub and updates the deployed app on DigitalOcean. We used Python Flask, HTML, CSS, a little bit of JavaScript, and the OpenAI API. By logging in, users can created an AI generated story with an accompanying image by inputting a prompt. These stories can be private or shared with other users if the current user choose to do so. Users can be followed in order to access their stories easier. Stories can be liked, sorted and searched for using different cartegories.
+                                      <br>
+                                      <br>
+                                      This project was something I wanted to share because the emergence of OpenAI's popularity indicated a greater reliance on artificial intelligence and machine learning going into the future. Being able to utilize these services, most likely through APIs, will be important in enhancing software. The capabilities of these artificial intelligence is shocking and this project gives a fun insight into it, which I wanted to share.
+                                      <br>
+                                      <br>
+                                      Note: It will take a moment for books to load or be created as the OpenAI API generates the story and image. Viewing a created book/story will regenerate the image but not the text. The next page button might be hidden by the book css as css isn't responsive yet. A temporary solution is to zoom out.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Languages/Resources Used and will be Used:</strong>
+                                            Python Flask, HTML, CSS, OpenAI API, JavaScript, Docker, DigitalOcean, GitHub Action
+                                        </li>
+                                        <br>
+                                        <li>
+                                          <a href="https://seahorse-app-q8zvt.ondigitalocean.app/stories" target="_blank" class="btn btn-primary btn-xl text-uppercase-offwhite">Website Hosted on DigitalOcean</a>
+                                        </li>
+                                        <br>
+                                        <li>
+                                          <a href="https://github.com/software-students-fall2022/final-project-team9final" target="_blank" class="btn btn-primary btn-xl text-uppercase-offwhite">GitHub</a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase-offwhite" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
                                     <h2 class="text-uppercase">Covid-19 Statistics Website</h2>
                                     <p class="item-intro text-muted"></p>
                                     <video width="960" height="540" controls>
@@ -298,8 +359,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -340,8 +401,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -381,8 +442,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -422,8 +483,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 7 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -459,8 +520,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 7 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 8 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -496,8 +557,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 8 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 9 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -534,8 +595,8 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 9 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Portfolio item 10 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
